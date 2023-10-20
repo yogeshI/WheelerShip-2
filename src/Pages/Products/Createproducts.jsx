@@ -166,7 +166,7 @@ const CreateProduct = () => {
                   Add Product
                 </button>
                 <button type="reset" className="btn btn-warning ml-2">
-                  Cancel
+                  Reset
                 </button>
               </div>
             </div>
