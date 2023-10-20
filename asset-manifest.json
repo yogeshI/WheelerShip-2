@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wheelership/static/css/main.ffe34ec7.css",
-    "main.js": "/wheelership/static/js/main.eb7488a9.js",
-    "static/js/787.fd39d11b.chunk.js": "/wheelership/static/js/787.fd39d11b.chunk.js",
-    "index.html": "/wheelership/index.html",
-    "main.ffe34ec7.css.map": "/wheelership/static/css/main.ffe34ec7.css.map",
-    "main.eb7488a9.js.map": "/wheelership/static/js/main.eb7488a9.js.map",
-    "787.fd39d11b.chunk.js.map": "/wheelership/static/js/787.fd39d11b.chunk.js.map"
+    "main.css": "/wheelership-2/static/css/main.ffe34ec7.css",
+    "main.js": "/wheelership-2/static/js/main.dabd1594.js",
+    "static/js/787.fd39d11b.chunk.js": "/wheelership-2/static/js/787.fd39d11b.chunk.js",
+    "index.html": "/wheelership-2/index.html",
+    "main.ffe34ec7.css.map": "/wheelership-2/static/css/main.ffe34ec7.css.map",
+    "main.dabd1594.js.map": "/wheelership-2/static/js/main.dabd1594.js.map",
+    "787.fd39d11b.chunk.js.map": "/wheelership-2/static/js/787.fd39d11b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe34ec7.css",
-    "static/js/main.eb7488a9.js"
+    "static/js/main.dabd1594.js"
   ]
 }
