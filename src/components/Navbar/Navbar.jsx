@@ -30,12 +30,11 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <Link to={'/WheelerShip-2/product'} className="nav-item">
-              <a className="nav-link mx-2" >
+            <li className="nav-item">
+            <Link to={'/WheelerShip-2/product'} className="nav-link mx-2">
                 PRODUCTS
-              </a>
             </Link>
-
+            </li>
 
             <li className="nav-item">
               <Link to={'/WheelerShip-2/about'} className="nav-link mx-2" >
