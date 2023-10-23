@@ -48,7 +48,7 @@ const UpdateProduct = () => {
         if (response.ok) {
           // Product updated successfully, show a success toast message
          alert("Product updated successfully", { autoClose: 2000 });
-          history("/product");
+          history("/WheelerShip-2/product");
         } else {
           // Failed to update the product, show an error toast message
          alert("Failed to update product. Please try again later.");

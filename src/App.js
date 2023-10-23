@@ -23,12 +23,12 @@ const App = () => {
 
     <Routes>
 
-    <Route path='/' element={<Home />} />
-    <Route path='/about' element={<About />} />
-    <Route path='/contact-us' element={<Contactpage />} />
-    <Route path='/product' element={<Dispalyproducts />} />
-    <Route path='/Create' element={<Createproducts />} />
-    <Route path='/Update/:id' element={<Updateproduct />} />
+    <Route path='/WheelerShip-2/' element={<Home />} />
+    <Route path='/WheelerShip-2/about' element={<About />} />
+    <Route path='/WheelerShip-2/contact-us' element={<Contactpage />} />
+    <Route path='/WheelerShip-2/product' element={<Dispalyproducts />} />
+    <Route path='/WheelerShip-2/Create' element={<Createproducts />} />
+    <Route path='/WheelerShip-2/Update/:id' element={<Updateproduct />} />
    
 
 

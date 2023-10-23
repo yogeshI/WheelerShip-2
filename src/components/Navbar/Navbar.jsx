@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <div className="container ">
-        <Link  to={'/'} className="navbar-brand" >
+        <Link  to={'/WheelerShip-2'} className="navbar-brand" >
           PRODUCTS
         </Link>
         <button
@@ -25,12 +25,12 @@ const Navbar = () => {
         <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link to={'/'} className="nav-link active mx-2" aria-current="page" >
+              <Link to={'/WheelerShip-2'} className="nav-link active mx-2" aria-current="page" >
                 HOME
               </Link>
             </li>
 
-            <Link to={'/product'} className="nav-item">
+            <Link to={'/WheelerShip-2/product'} className="nav-item">
               <a className="nav-link mx-2" >
                 PRODUCTS
               </a>
@@ -38,14 +38,14 @@ const Navbar = () => {
 
 
             <li className="nav-item">
-              <Link to={'/about'} className="nav-link mx-2" >
+              <Link to={'/WheelerShip-2/about'} className="nav-link mx-2" >
                 ABOUT
               </Link>
             </li>
 
 
             <li className="nav-item">
-              <Link to={'/contact-us'} className="nav-link mx-2" >
+              <Link to={'/WheelerShip-2/contact-us'} className="nav-link mx-2" >
                 CONTACT
               </Link>
             </li>

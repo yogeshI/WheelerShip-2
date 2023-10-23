@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const CreateProduct = () => {
-  const navigate = useNavigate();
-  const [product, setProduct] = useState({
+  const initialState = {
     id: '',
     title: "",
     description: "",
@@ -15,7 +14,9 @@ const CreateProduct = () => {
     stock: "",
     discountPercentage: "",
     thumbnail: "",
-  });
+  }
+  const navigate = useNavigate();
+  const [product, setProduct] = useState(initialState);
 
   const [responseMessage, setResponseMessage] = useState(null);
 
@@ -27,6 +28,16 @@ const CreateProduct = () => {
     });
   };
 
+  const cancelHandler = (e)=> {
+    e.preventDefault();
+    navigate('/WheelerShip-2/product')
+  }
+
+  const resetHandler = (e)=> {
+    e.preventDefault();
+    setProduct(initialState)
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -37,7 +48,7 @@ const CreateProduct = () => {
     console.log("Product added successfully:", response.data);
     alert("Product added successfully")
     setResponseMessage("Product added successfully.");
-    navigate('/product');
+    navigate('/WheelerShip-2/product');
   })
   .catch((error) => {
     console.error("Error adding product:", error);
@@ -161,12 +172,15 @@ const CreateProduct = () => {
                 />
               </div>
 
-              <div className="d-flex mt-3">
+              <div className="d-flex mt-3 justify-content-between">
                 <button type="submit" className="btn btn-primary">
                   Add Product
                 </button>
-                <button type="reset" className="btn btn-warning ml-2">
+                <button type="reset" onClick={resetHandler} className="btn btn-warning ml-2">
                   Reset
+                </button>
+                <button type="button" onClick={cancelHandler} className="btn btn-danger ml-2">
+                  Cancel
                 </button>
               </div>
             </div>
